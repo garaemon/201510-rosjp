@@ -1,0 +1,5 @@
+<launch>
+  <include file="$(find openni2_launch)/launch/openni2.launch" />
+  <node pkg="rqt_image_view" type="rqt_image_view" name="rqt_image_view" />
+</launch>
+    

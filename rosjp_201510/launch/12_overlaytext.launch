@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="jsk_rviz_plugins" type="overlay_sample.py" name="overlay_sample" />
+  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find rosjp_201510)/rviz/overlay_text.rviz" />
+</launch>

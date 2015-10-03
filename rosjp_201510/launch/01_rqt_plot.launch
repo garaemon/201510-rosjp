@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="rwt_plot" type="sin.py" name="sin" />
+  <node pkg="rwt_plot" type="cos.py" name="cos" />
+  <node pkg="rqt_plot" type="rqt_plot" name="plot"
+        args="/sin/data /cos/data" />
+</launch>

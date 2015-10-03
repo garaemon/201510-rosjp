@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="jsk_rviz_plugins" type="diagnostics_sample.py" name="diagnostics_sample" />
+  <node pkg="diagnostic_aggregator" type="aggregator_node" name="diagnostics_agg" />
+  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find rosjp_201510)/rviz/overlay_diagnostics.rviz" />
+</launch>

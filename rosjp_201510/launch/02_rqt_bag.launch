@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="rqt_bag" type="rqt_bag"
+        name="rqt_bag"
+        args="$(find rosjp_201510)/bags/2015-09-29-18-24-24_multisense_images_human_front.bag" />
+</launch>
